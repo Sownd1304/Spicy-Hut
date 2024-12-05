@@ -1,0 +1,142 @@
+:root{
+    --yellow:#FFB200;
+    --rose:#D91656;
+    --violet:#640D5F;
+    --orange:#EB5B00;
+    --white:#F5F5F5;
+}
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../media/pexels-valeriya-1639562.jpg');
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: var(--violet);
+}
+header{
+    display: flex;
+    padding: 30px;
+}
+#logo{
+    flex: 2;
+    font-size: 2em;
+    font-weight: bold;
+}
+header nav{
+    display: flex;
+    flex: 2;
+}
+nav a{
+    flex:1 ;
+    font-weight: bold;
+}
+nav a:hover{
+    color: var(--rose);
+}
+.maintxt{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+}
+.tagline1{
+    color: var(--rose);
+    font-weight: bold;
+    font-size: 2em;
+}
+.tagline2{
+    color:var(--violet);
+    font-weight: bold;
+
+}
+.callus{
+    color: #EB5B00;
+}
+.maintxt div{
+    margin-top:.75em;
+    margin-left: 30px;
+}
+.maintxt button{
+    width: 20vw;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 7px;
+    border: black 2px solid;
+    color: white;
+}
+.menu{
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.404),black);
+   
+    
+}
+#menuheading{
+    color: #FFB200;
+    text-align: center;
+    /* margin-top: 295px; */
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.404),black);
+    font-size: 2em;
+    font-family: bold;
+}
+.menu th{
+    color: #D91656;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+
+}
+.menu td:nth-child(1){
+    justify-self: left;
+    flex: 1;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+#locheading{
+    color: #FFB200;
+    text-align: center;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.404),black);
+    font-size: 2em;
+    font-family: bold;
+}
+.locations{
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.404),black);
+    width: 100%;
+    padding: 1em;
+    
+}
+.locations h2{
+    color: #D91656;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    padding: 1em;
+}
+
+
+
+
